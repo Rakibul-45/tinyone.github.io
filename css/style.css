@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+/* google font lnk */
+
+/* common css */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:  'PT Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:  'PT Sans', sans-serif;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+img {
+    vertical-align: middle;
+}
+:root {
+    --primaryColor: #010101;
+    --secondaryColor: #fbdb00;
+    --therdColor: #ffffff;
+
+    --fontpt:  'PT Sans', sans-serif;
+   
+}
+/* common css */
+
+
+/* MENU AREA  */
+
+
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    font-size: 22px;
+    font-family:'PT Sans', sans-serif ;
+}
+
+.collapse ul li a:hover{
+    color: #ffffff;
+}
+.navbar-brand{
+    font-size: 30px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.menu_area {
+    height: 100vh;
+    width: 100vw;
+    background: #fbdb00;
+    font-family: var('PT Sans', sans-serif);
+}
+
+.menu {
+    background: #fbdb00;
+
+}
+
+
+.img_menu{
+    
+        margin-right: 10px;
+    
+}
+
+.container ul li a {
+    margin-right: 50px;
+}
+
+.main_con{
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+.main_con h1 {
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.main_con .men{
+    font-size: 20px;
+} 
+.icon_col ul li a{
+    margin-top: 30px;
+    display: flex;
+    color: #010101;
+    font-size: 35px;
+}
+
+.icon_col ul li a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.icon_col ul li a :hover{
+    color: #ffffff;
+}
+
+.icon_col ul {
+    display: flex;
+
+}
+
+.mobile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.white_area{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 400px;
+    width: 280px;
+    background: var(--therdColor);
+    border-radius: 20px;
+}
+.black_area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    width: 250px;
+    background: #010101;
+    color: var(--secondaryColor);
+}
+
+.icon_area{
+    font-size: 25px;
+}
+.icon_area img{
+    background: transparent;
+        background: rgb(234, 11, 11);
+        color: black;
+        position: relative;
+        top: -52px;
+        left: -45px;
+        border-radius: 20px;
+}
+
+
+
+/* MENU AREA END  */
+
+
+
+/* HERO AREA  */
+
+
+.hero_area{
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 200px;
+    color: #010101;
+}
+
+.hero_head h1{
+    
+        text-align: center;
+        font-size: 35px;
+        font-family: 'PT Sans', sans-serif;
+        font-weight: 800;
+        color: #010101;
+        margin-top: 95px;
+        margin-bottom: 20px;
+    
+}
+
+.hero_head p{
+    text-align: center;
+    line-height: 1px;
+}
+
+.hero_main ul{
+    display: flex;
+    margin-top: 80px;
+    gap: 25px;
+    font-size: 22px;
+
+}
+.hero_main p{
+    text-align: center;
+}
+
+.hero_main .main_icon{
+    font-size: 40px;
+    margin-top: 10px;
+
+}
+
+.hero_main .main_head{
+    margin-top: 20px;
+}
+
+
+
+
+/* HERO AREA END  */
+
+/* CONTACT AREA  */
+
+.footer_area{
+    height: 100vh;
+    width: 100vw;
+    background: #010101;
+    color: #ffffff;
+}
+
+.footer_head{
+    text-align: center;
+}
+.footer_head h1{
+    margin-bottom: 20px;
+    font-size: 30px;
+    padding-top: 65px;
+    color: #fbdb00;
+}
+
+.footer_head p{
+    line-height: 1px;
+}
+.hedu{
+    margin-top: 20px;
+}
+
+.footer_input{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    margin-top: 40px; 
+
+}
+
+.inu{
+    height: 39px;
+    width: 450px;
+    border-radius: 4px
+    
+    
+}
+
+.button{
+    width: 90px;
+    height: 35px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background: #fbdb00;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+
+
+
+.footer_input ul{
+    display: flex;
+}
+
+.footer_icon{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.footer_icon ul{
+
+    display: flex;
+    gap: 20px;
+
+}
+
+.footer_link{
+    margin-top: 100px;
+    
+}
+
+.footer_link ul{
+   list-style: none;
+
+
+}
+
+.footer_link ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* CONTACT AREA END */
